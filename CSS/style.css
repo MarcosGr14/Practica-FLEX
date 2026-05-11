@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family: Arial;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #e74c3c;
+    color: white;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: url(https://www.recetasnestle.com.ec/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/681c719667d572276a1507aea71de9ca.jpg?itok=BXa7wk3U) center/cover;
+    color:white;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    padding: 20px;
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1)
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: red;
+    color: azure;
+
+}
